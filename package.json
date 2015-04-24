@@ -1,0 +1,25 @@
+{
+  "name": "react-proptypes-url-validator",
+  "version": "0.0.1",
+  "description": "custom url validator for React PropTypes",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/irvinebroque/react-proptypes-url-validator.git"
+  },
+  "keywords": [
+    "react",
+    "propTypes",
+    "url-regex",
+    "validator"
+  ],
+  "author": "Brendan Irvine-Broque <brendanib@gmail.com> (http://irvinebroque.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/irvinebroque/react-proptypes-url-validator/issues"
+  },
+  "homepage": "https://github.com/irvinebroque/react-proptypes-url-validator"
+}
