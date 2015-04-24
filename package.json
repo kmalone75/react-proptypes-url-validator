@@ -4,7 +4,7 @@
   "description": "custom url validator for React PropTypes",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,29 @@
   "bugs": {
     "url": "https://github.com/irvinebroque/react-proptypes-url-validator/issues"
   },
-  "homepage": "https://github.com/irvinebroque/react-proptypes-url-validator"
+  "homepage": "https://github.com/irvinebroque/react-proptypes-url-validator",
+  "dependencies": {
+    "url-regex": "^2.1.2"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testFileExtensions": ["es6", "js"],
+    "moduleFileExtensions": ["js", "json", "es6"],
+    "unmockedModulePathPatterns": ["<rootDir>/node_modules/url-regex/node_modules"]
+  },
+  "eslint": {
+    "env": {
+      "es6": true
+    },
+    "ecmaFeatures": {
+      "jsx": true,
+      "templateStrings": true
+    }
+  },
+  "devDependencies": {
+    "babel-jest": "^5.0.1",
+    "jest-cli": "^0.4.0",
+    "react": "^0.13.2",
+    "react-tools": "^0.13.2"
+  }
 }
