@@ -29,7 +29,7 @@
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
     "testFileExtensions": ["es6", "js"],
     "moduleFileExtensions": ["js", "json", "es6"],
-    "unmockedModulePathPatterns": ["<rootDir>/node_modules/url-regex/node_modules"]
+    "unmockedModulePathPatterns": ["react", "<rootDir>/node_modules/url-regex/node_modules"]
   },
   "eslint": {
     "env": {
