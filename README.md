@@ -1,5 +1,7 @@
 [![Circle CI](https://circleci.com/gh/irvinebroque/react-proptypes-url-validator/tree/master.svg?style=svg)](https://circleci.com/gh/irvinebroque/react-proptypes-url-validator/tree/master)
 
+[![NPM](https://nodei.co/npm/react-proptypes-url-validator.png)](https://nodei.co/npm/react-proptypes-url-validator/)
+
 # react-proptypes-url-validator
 
 Custom [PropType](https://facebook.github.io/react/docs/reusable-components.html#prop-validation) that validates URLs. Depends on [url-regex](https://www.npmjs.com/package/url-regex).
