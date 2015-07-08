@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/irvinebroque/react-proptypes-url-validator",
   "dependencies": {
-    "url-regex": "^2.1.2"
+    "url-regex": "^3.0.0"
   },
   "jest": {
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
